@@ -30,7 +30,11 @@ agenda.cadastrarContatos ("Anikely, 17,1");
 agenda.cadastrarContatos ("Maria, 17,1");
 
 //Pesquisar aniversariantes (17 de Janeiro)
-Collection aniversariantes = agenda.pesquisaAniversariantes (17,1);
+try{
+  Collection <Contato> aniversariantes = agenda.pesquisaAniversariantes (17,1);
+ }catch (Exception e){
+    System.out.println (e.getMessage());
+ }
 
 // Persistência de dados
 agenda.salvarDados ();
