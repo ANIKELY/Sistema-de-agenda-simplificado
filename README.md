@@ -43,5 +43,5 @@ agenda.recuperarDados();
 - Serialização de objetos
 - Collections Framework (Map/HashMap)
 
-## Autor
+## Autor(a)
 [Anikely Santos da Silva]
