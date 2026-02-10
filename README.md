@@ -20,21 +20,20 @@ Sistema de gerenciamento de agenda de contatos que é desenvolvido na linguagem 
 - AgendaDeContatosTest: Classe onde são feitas os testes unitários JUnit
 
 ## Como usar 
-''' java
-// Como criar uma nova agenda
+ java
+// Criar a agenda
 AgendaDeContatos agenda = new AgendaDeContatos();
+AgendaDeContatosMap();
 
-// Como fazer cadastros de contatos
+// Cadastrar contatos
 agenda.cadastrarContatos ("Anikely, 17,1");
-agenda.cadastrarContatos ("Maria, 17,1);
+agenda.cadastrarContatos ("Maria, 17,1");
 
-//Como pesquisar aniversariantes
+//Pesquisar aniversariantes (17 de Janeiro)
 Collection aniversariantes = agenda.pesquisaAniversariantes (17,1);
 
-// Como é feita o salvamento dos dados
+// Persistência de dados
 agenda.salvarDados ();
-
-// Como é feita a recuperação dos dados
 agenda.recuperarDados();
 
 ## Tecnologias
